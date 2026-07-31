@@ -1,0 +1,17 @@
+.DS_Store
+.build/
+.swiftpm/
+DerivedData/
+dist/
+*.zip
+*.xcuserstate
+
+# Never commit local agent binaries, private adapters, credentials, or provider config.
+PrivateAdapters/
+Resources/Tools/
+.env
+.env.*
+*.key
+*.pem
+*credentials*
+*secrets*

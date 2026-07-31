@@ -1,0 +1,43 @@
+{
+  "type": "object",
+  "properties": {
+    "translation": {
+      "type": "string",
+      "description": "忠实、自然的简体中文翻译"
+    },
+    "explanation": {
+      "type": "string",
+      "description": "对困难句法、指代、缩写和学术语境的简明解释"
+    },
+    "corePoint": {
+      "type": "string",
+      "description": "一句中文核心观点"
+    },
+    "keywords": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "term": {
+            "type": "string"
+          },
+          "translation": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "term",
+          "translation"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "translation",
+    "explanation",
+    "corePoint",
+    "keywords"
+  ],
+  "additionalProperties": false
+}
