@@ -2,7 +2,8 @@
 
 PaperPrism 是一款面向 macOS 的本地论文精读与科研学习工具。它将 PDF、Word 阅读、分段英译中、解释、核心观点笔记、专业词库和引用信息整理放在同一个清爽的桌面界面中。
 
-![PaperPrism app icon](icon.png)
+![PaperPrism app icon](ScreenShot_2026-08-01_121020_086.png)
+
 
 ## 功能
 
